@@ -1,0 +1,66 @@
+/* userForm.css */
+.userform-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.userform-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.userform-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.userform-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.userform-label {
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.userform-input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.userform-button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.userform-button:hover {
+  background-color: #555;
+}
+
+.forgot-password {
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
